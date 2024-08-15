@@ -1,0 +1,720 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+@keyframes appear{
+    form{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+   .card-1{
+    animation: appear linear;
+    animation-timeline::view-transition;
+   } 
+}
+body{
+    background-color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+    transition: 1s;
+}
+html{
+    scroll-behavior: smooth;
+    transition: 1s;
+}
+
+.hero-section{
+    width: 1440px;
+    height: 6600px;
+    margin: auto;
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 49px;
+    margin-top: -100px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background-color: black;
+  
+   border-bottom: 1px solid rgb(83, 83, 83);
+   padding-bottom: 20PX;
+   position: fixed;
+   width: 70%;
+
+}
+a{
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    position: relative;
+
+    /* transition: transform 0.4s ease 0s;
+    transition: background-color 0.3s, color 0.3s; */
+     transition-duration: 0.4s;
+    transition-timing-function:ease-in ;
+    transition-delay: 1s;
+    transition-property: transform;
+    
+    
+
+}
+a:hover{ 
+    transform: translateY(-10px); 
+   
+    color: rgb(219, 37, 37)
+
+}
+nav{
+
+    margin-top: 20px;
+
+}
+.hero-btn{
+    width: 151px ;
+    height:  51px;
+    color: white;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 12px;
+    background-color: transparent;
+    font-size: 18PX;
+
+    /* transition-duration: 0.4s;
+    transition-timing-function:ease ;
+    transition-delay: 0s;
+    transition-property: transform; */
+
+    transition: transform 0.4s ease 0s;
+    transition: background-color 0.3s, color 0.3s;
+    
+
+
+}
+.hero-btn:hover{transform: translateY(-10px); background-color;
+color: rgb(219, 37, 37);}
+
+.hero{
+    display: flex;
+    margin-top: 130px;
+   padding-top: 100px;
+}
+.text h1 {
+  font-size: 20px;
+  color:  #b00020;
+  margin-bottom: 20px;
+  margin-left: -228px;
+  font-weight: 300;
+
+  
+}
+
+
+.text span{
+    color: white;
+}
+
+.line{
+    height: 1px;
+    width: 65px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 45px;
+    margin-bottom: -13px;
+    
+}
+.aim{
+    font-size: 46px;
+    font-weight: 500;
+    color: white;
+    margin-left: 45px;
+
+    
+   
+}
+
+
+
+.text img{
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+
+.text p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    opacity: 60%;
+    color: white;
+    margin-left: -70px;
+    line-height: 1.5;
+
+}
+.text button{
+    width: 201px ;
+    height:  59px;
+    margin-left: 45px;
+    margin-top: 20px;
+    border: 2px solid #b00020; 
+    border-radius: 8px;
+    color: aliceblue;   
+   
+    font-size: 16px;
+   background-color:transparent;
+    
+   
+    
+    
+
+}
+.text{
+    margin-left: 50px;
+}
+
+
+ .img-hero
+{
+    width: 500px;
+    height: 591px
+    ;
+    background-position: cover;
+    position: relative;
+    margin-left: 50px;
+    margin-top: -100px;
+    /* margin: auto; */
+
+}
+.image-hero{
+    background-color: aquamarine;
+    margin-left: 150px;
+    position: relative;
+
+}
+.cl{
+    display: flex;
+
+}
+.one{
+    background-color:transparent;
+    align-items: center;
+    border-right: 1px solid rgb(181, 181, 181);
+    padding: 15px;
+    margin-top: 30px;
+
+}
+
+.one h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: aliceblue;
+    margin-left: 25px;
+    padding-right: 10px;
+    opacity: 80%;
+    margin-top: 10px;
+
+}
+.one h3{
+    text-align: center;
+    font-size: 22PX;
+    margin-right: -40px;
+    font-weight: 400;
+
+    color:#b00020;
+   
+}
+
+/* marque section is here */
+
+.marque{
+    width: 1440px;
+    height: 160px;
+    background-color:  rgba(14, 14, 14, 1);
+    ;
+    display: flex;
+    justify-content: space-between;
+   
+    margin-top: 130px;
+    margin-left: 20PX;
+    margin-right: 20PX;
+
+   
+    
+}
+.marque img{
+    width: 250px;
+    height: 100px;
+    background-image: COVER;
+}
+.marque-h1{
+    text-align: center;
+    font-size: px;
+   font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 120px;
+    margin-bottom: -100px;
+}
+
+.section-3{
+    display: flex;
+    background-color: rgba(14, 14, 14, 1);
+    margin-top: 120px;
+    
+}
+
+.section-3 h1{
+    font-size: 24px;
+    margin-top: 200px;
+    margin-left: 0px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    color: white;
+}
+.section-3 h2{
+    font-size: 55px;
+    color: white;
+    margin-bottom: 10px;
+}
+.section-3 p{
+    font-size: 16px;
+    color: white;
+    opacity: 60%;
+    line-height: 1.5;
+}
+.section-3 span{
+    color: #b00020;
+}
+.line-2{
+    width: 100px;
+    height: 1px;
+   background-color: aliceblue;
+   margin-top: 217px;
+    
+}
+
+.gando{
+    display: flex;
+    margin-top: 80px;
+}
+
+/* section 4 is start */
+
+.gando-2{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.gando-2 h1{
+    color: aliceblue;
+    margin: 0%;
+    padding: 0%;
+}
+.line-3{
+    width: 100px;
+    height: 1px;
+   background-color: aliceblue;
+   margin-top: 25px;
+}
+
+.sec-4 h2{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    color: aliceblue;
+
+}
+.sec-4 span{
+    color: #b00020;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 40px;
+}
+.card-1{
+    width: 400px;
+    height: 370px;
+    border-radius: 12px;
+    border: 1px solid rgb(171, 171, 171);
+    padding: 50px;
+   
+}
+
+.card-1 h1{
+    font-size: 29px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.card-1 p{
+    font-size: 18px;
+    color: aliceblue;
+    line-height: 1.4;
+    opacity: 60%;
+
+}
+
+.card-pp
+{
+    display: flex;
+    margin-top: 5px;
+    
+}
+.card-pp h1{
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.card-2{
+    width: 424px;
+    height: 370px;
+    border-radius: 12px;
+    border: 1px solid rgb(171, 171, 171);
+    padding: 60px;
+}
+
+.card-2 img, h1, p{ 
+    text-align: center;
+    color: aliceblue;
+
+
+}
+.card-2 h1
+{
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.card-2 span{ 
+    font-size:15px ;
+    opacity: 50%;
+    color: aliceblue;
+    font-weight: 100;
+}
+.card-2 img{
+    margin-left: 34%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+/* foooooooooootttttttttttttteeeeeeeeeeeeeeeeeeeeeeerrrrrrrrrrrrrrrrrrrrrrrrrr */
+footer{
+    display: flex;
+    background-color:rgba(14, 14, 14, 1);
+    height: 460px;
+    width: 1440px;
+    margin: auto;
+    justify-content: space-between;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    margin-top: -100px;
+}
+
+.foo-1 img{
+    margin-left: 70px;
+    margin-top: 80px;
+}
+.foo-1 p {
+    margin-left: 70px;
+   line-height: 1.5;
+   font-size: 18px;
+   margin-top: 20px;
+}
+
+.word h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    
+}
+
+.word h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 0px;
+
+    
+}
+.word-2{
+    margin-top: 100px;
+    margin-right: 70px;
+}
+.word-2 h1{
+    font-size: 32px;
+    font-weight: 500;
+    margin-right: 70px;
+
+}
+.lll{
+    display: flex;
+    margin-top: 20px;
+   
+
+
+}
+
+.lll h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 10PX;
+
+
+}
+
+.last{
+    height: 70px;
+    width: 1440px;
+    display: flex;
+    border-top: 1px solid rgb(198, 198, 198);
+    margin: auto;
+    background-color: rgba(14, 14, 14, 1);
+    text-align: center  ;
+    justify-content: center;
+    padding-top: ;
+    
+}
+
+.last h1{
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 23px;
+
+}
+.last img{
+    width: 50PX;
+    height: 50PX;
+    margin-top: 16px;
+    margin-right: 10PX;
+}
+
+
+
+/*    contact usss  */
+
+.contact{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    width: 1440px;
+    height: 100vh;
+    background-color:rgb(0, 0, 0) ;
+}
+
+.cardo{
+    max-width: 519px;
+    height: 299px;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 195px;
+    padding-top: 25px;
+    margin-left: 50px;
+    
+
+
+    border: 2px solid #626262;
+    background-color:rgba(14, 14, 14, 1);
+}
+.cardo h1{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 50px;
+    /* padding: 0px 36px; */
+    margin-top:15px;
+    
+}
+.cardo h3{
+    color: aliceblue;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    padding-left: 30px;
+
+
+
+}
+.cardo img{
+    width: 200px;
+    height: 40px;
+    margin-left: 48px;
+    margin-top: 10px;    
+}
+.form{
+    width: 50%;
+}
+.mees{
+    width: 50%;
+}
+
+.divv{
+    display: flex;
+}
+
+input{
+    width: 286px;
+    height: 51px;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin: 15px;
+    border: #626262 2px solid;
+    background: transparent;
+   
+   
+ }
+ ::placeholder {
+    color: white
+    ;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12-18 */
+    color: red;
+  }
+
+ .Message{
+    width: 600px;
+    height: 279px;
+    padding-left: 20px;
+    border-radius: 5px;
+    padding-bottom: 220px;
+    margin: 15px;
+    border: #626262 2px solid;
+    
+ }
+
+ .Send{
+    width: 181px ;
+    height:  52px;
+    color: white;
+   border: none;
+    border-radius: 20px;
+    background: linear-gradient( to right, rgba(198, 30, 56, 1), rgba(198, 30, 56, 1), rgba(198, 30, 56, 0));
+    font-size: 18PX;
+    margin: auto;
+
+   
+
+    transition: transform 0.4s ease 0s;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+
+
+ }
+
+.form h1{
+    font-size: 65px;
+    font-weight: 500;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 13px;
+ }
+
+ .form p{
+
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 10px;
+    text-align: left;
+      opacity: 50%;
+      margin-left: 13px;
+      margin-bottom: 30px;
+ }
+
+ .card-2:hover{
+    background:rgba(150, 150, 150, 1);
+    transition: 0.4s;
+    
+ }
+
+
+ .card-1:hover{
+    background: linear-gradient(100.04deg, #C61E38 -1.94%, #C61E38 -1.94%, rgba(198, 30, 56, 0) 160.92%);
+
+    transition: 1s;
+    
+ }
+
+ button:hover{
+    background: linear-gradient(100.04deg, #C61E38 -1.94%, #C61E38 -1.94%, rgba(198, 30, 56, 0) 160.92%);
+    transition: 0.5s;
+    border: none;
+
+
+
+ }
+
+
+
+
+
+/* sec aboooouuuttt usss */
+
+
+.sec-about{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+
+}
+.tttt{
+    max-width: 50%;
+    margin-left: 40px;
+    
+}
+
+.tttt h1{
+    font-size: 40px ;
+    font-weight: 700;
+    color: aliceblue;
+    margin-top: 150px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.tttt p{
+    font-size:16px ;
+    font-weight: 300px;
+    color: aliceblue;
+    opacity: 70%;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.sec-img1 img{
+   max-width: 600px; 
+max-height: 600px;
+}
+
+.red{
+    color: #b00020;
+}
+
+
+ 
